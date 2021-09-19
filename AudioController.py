@@ -16,17 +16,20 @@ Set source directory to VLC path (ex: C:\Program Files (x86)\VideoLAN\VLC\lua\ht
     located under Program Files, not necessarily Program Files (x86)
 Set a password
 Enter that password below in the second field of the s.auth declaration
+Click the "Main Interfaces" tab again, and make sure to enable the "Web" option. Hit save.
 Make sure there is a "status.xml" file in the aforementioned file path (same as source directory text field)
 Visit http://localhost:8080/requests/status.xml and enter the password
 If connection fails open up VLC --> View --> Add --> Interface --> Web, then try again
- 
+
 --------------USE--------------------------------
- 
 For ease of use, and if you are able; set up a batch file to automatically execute the script and assign it 
 to a macro, or just use the batch file the same as you would an executable file.
 
 Note that the program will continuously run and make checks for VLC paused/playing status every second
 unless you close out the command prompt (or press Ctrl+C)
+
+When exiting, you have to close the script first before closing the paused VLC video, otherwise your web browser will
+    stay muted and you'll have to manually unmute it through the volume mixer.
 
 Major thanks goes to user pss on stackoverflow
 '''
