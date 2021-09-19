@@ -17,7 +17,7 @@ Set source directory to VLC path (ex: C:\Program Files (x86)\VideoLAN\VLC\lua\ht
 Set a password
 Enter that password below in the second field of the s.auth declaration
 Make sure there is a "status.xml" file in the aforementioned file path (same as source directory text field)
-Visit http:\\localhost:800/requests
+Visit http://localhost:800/requests
 If connection fails open up VLC --> View --> Add --> Interface --> Web, then try again
  
 --------------USE--------------------------------
