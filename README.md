@@ -15,3 +15,5 @@ This was getting very annoying. So I wrote a script to automate it.
 
 I understand this solves an incredibly specific problem, but on the off chance that someone needs something like this, I'm uploading it to github. 
 It's a bit of a pain in the ass to set up, but if you're like me then it's 100% worth it. Have fun.
+
+I've only tested it out on Windows 10.
