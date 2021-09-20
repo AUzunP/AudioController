@@ -3,7 +3,7 @@
 # What this script does
 
 This script, when activated, auto-mutes your main web browser (that you set manually) when VLC is playing a media file, and unmutes it when you pause the
-media file.
+media file. If you are watching a youtube video, it will also pause the video (give it like 10 seconds at startup to realize youtube is playing)
 
 # Why it exists
 
