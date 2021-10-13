@@ -17,3 +17,8 @@ I understand this solves an incredibly specific problem, but on the off chance t
 It's a bit of a pain in the ass to set up, but if you're like me then it's 100% worth it. Have fun.
 
 I've only tested it out on Windows 10.
+
+# Issues
+
+If there are issues getting VLC to launch the status page, try installing the 32bit version instead.
+If there are issues with access denied for pygetwindow, try upgrading pip and reinstalling the required packages
